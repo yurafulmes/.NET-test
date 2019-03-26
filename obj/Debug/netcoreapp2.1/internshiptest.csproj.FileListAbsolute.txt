@@ -1,0 +1,11 @@
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\bin\Debug\netcoreapp2.1\internshiptest.deps.json
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\bin\Debug\netcoreapp2.1\internshiptest.runtimeconfig.json
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\bin\Debug\netcoreapp2.1\internshiptest.runtimeconfig.dev.json
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\bin\Debug\netcoreapp2.1\internshiptest.dll
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\bin\Debug\netcoreapp2.1\internshiptest.pdb
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\obj\Debug\netcoreapp2.1\internshiptest.csprojAssemblyReference.cache
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\obj\Debug\netcoreapp2.1\internshiptest.csproj.CoreCompileInputs.cache
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\obj\Debug\netcoreapp2.1\internshiptest.AssemblyInfoInputs.cache
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\obj\Debug\netcoreapp2.1\internshiptest.AssemblyInfo.cs
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\obj\Debug\netcoreapp2.1\internshiptest.dll
+C:\Users\Yra\Desktop\Projects\InterLinkInСampTest\obj\Debug\netcoreapp2.1\internshiptest.pdb
