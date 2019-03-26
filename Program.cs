@@ -2,6 +2,8 @@
 using InternshipTest.Person;
 using InternshipTest.Institution;
 using InternshipTest.Institution.InterLink;
+using internshiptest.Repository;
+using System.Linq;
 
 namespace InternshipTest
 {
@@ -9,15 +11,13 @@ namespace InternshipTest
     {
         static void Main(string[] args)
         {
-            var s = new Student("Alex");
-            University university = new University("CH.U.I.");
-            university.AddStudent(new Student("Andrew Kostenko"));
-            university.AddStudent(new Student("Julia Veselkina"));
-            university.AddStudent(new Student("Maria Perechrest"));
+            University university = new University("CH.U.I.", new FakeStudentsRepository().GetAll().ToList());
 
-            Internship internship = new Internship("Interlink");
+            Internship internship = new Internship("Interlink", university);
             Console.WriteLine("List of internship's students:");
             Console.WriteLine(internship.GetStudents());
+
+            Console.ReadKey();
         }
     }
 }
