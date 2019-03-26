@@ -1,16 +1,33 @@
+using InternshipTest.Person;
+using System.Collections.Generic;
+
 namespace InternshipTest.Institution.InterLink
 {
     public class Internship
     {
-        public Internship(string name)
+        public string Name { get; }
+        private IList<Student> Students { get; }
+        public Internship(string name, University university = null /*for flexibility can be an interface*/)
         {
-            //TODO: Implementation is needed      
+            Name = name;
+
+            if (university != null)
+                Students = university.filterByAverageKnowledge();
+            else
+                Students = new List<Student>();//for default
+
         }
 
         public string GetStudents()
         {
-            //TODO: Implementation is needed
-            return "Andrew Maslenko\nJulia Veselkina\n";
+            string result = "";
+
+            foreach (var student in Students)
+            {
+                result += student.Name;
+                result += "\n";//split
+            }
+            return result;
         }
     }
 }
